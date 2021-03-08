@@ -16,6 +16,9 @@
   
   - cd begin-react --> 만든 리액트 폴더로 이동
 
-  - yarn start 를 실행하면 http://localhost:3000/ 의 창이 열림.
+  - yarn start 를 실행하면 http://localhost:3000/ 의 창이 열림.(아래 사진 참고)
   
- ![image](https://user-images.githubusercontent.com/80079066/110272817-6d80ff00-800e-11eb-9231-8e5c68a6b9ca.png)
+![image](https://user-images.githubusercontent.com/80079066/110272877-986b5300-800e-11eb-9650-96a6b0518700.png)
+
+
+출처 벨로퍼트님 (https://react.vlpt.us/basic/02-prepare.html)
