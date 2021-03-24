@@ -15,3 +15,12 @@ Yarn 설치 <p> url : <https://classic.yarnpkg.com/en/docs/install#windows-stabl
 - VS code (Visual Studio Code)
  VS Code 설치<p> url : <https://code.visualstudio.com/>
  
+- ConEmu 
+  ConEmu 설치 <p> url : <https://conemu.github.io/> <p>
+  : 여러개의 cmd창을 열어 여러개의 프로젝트를 관리할 수 잇음.
+ 
+ 새 프로젝트 만들기
+ ----------------
+ 
+ - React Project 생성하기 <p> ` $ npx create-react-app [프로젝트 이름] ` <p> 
+
