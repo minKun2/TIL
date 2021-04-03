@@ -3,7 +3,9 @@
 ## 필요 파일( needs file )
 ### node.js 
 
-Window => Node.js 공식 홈페이지에서 최신 LTS 버전 설치 [Node.js](https://nodejs.org/en/) 
+Window => Node.js 공식 홈페이지에서 최신 LTS 버전 설치
+
+[Node.js](https://nodejs.org/en/) 
 
 mac/Linux nvm 명령어 이용 Node.js 설치 
 
@@ -14,7 +16,10 @@ $ nvm install --lts
 
 ### Yarn
 
-Yarn 설치 [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable)
+Yarn 설치
+
+[Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable)
+
 - Yarn 설치
  
   : `npm install --global yarn`
@@ -22,11 +27,15 @@ Yarn 설치 [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable)
   : `yarn --version`
  
 ### VS code (Visual Studio Code)
- VS Code 설치 [VS Code](https://code.visualstudio.com/)
+ VS Code 설치
+ 
+[VS Code](https://code.visualstudio.com/)
  
 ### ConEmu 
 
-ConEmu 설치 [ConEmu](https://conemu.github.io/)
+ConEmu 설치 
+
+[ConEmu](https://conemu.github.io/)
 
 : 여러개의 cmd창을 열어 여러개의 프로젝트를 관리할 수 잇음.
  
