@@ -100,3 +100,6 @@ export default Info;
 ```
 
 - 아래과 같이 뜨게 된다면 성공!:clap:
+
+![usestate 중복으로 사용하기](https://user-images.githubusercontent.com/80079066/118953669-01b8fc00-b998-11eb-89a8-aa2e7b23f5e5.png)
+
