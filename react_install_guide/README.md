@@ -7,7 +7,7 @@ React Install Guide
 
 - Yarn
 Yarn 설치 url <https://classic.yarnpkg.com/en/docs/install#windows-stable>
-  1. Yarn 설치
+  1. Yarn 설치 <p>
     `npm install --global yarn`
-  2. yarn 버전
+  2. yarn 버전 <p>
     `yarn --version`
