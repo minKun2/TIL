@@ -6,12 +6,12 @@ React Install Guide
 `$ nvm install --lts `
 
 - Yarn
-Yarn 설치 url : <https://classic.yarnpkg.com/en/docs/install#windows-stable>
+Yarn 설치 <p> url : <https://classic.yarnpkg.com/en/docs/install#windows-stable>
   1. Yarn 설치 <p>
     `npm install --global yarn`
   2. yarn 버전 <p>
     `yarn --version`
 
 - VS code (Visual Studio Code)
- VS Code 설치 url : <https://code.visualstudio.com/>
+ VS Code 설치<p> url : <https://code.visualstudio.com/>
  
