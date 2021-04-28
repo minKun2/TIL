@@ -9,8 +9,3 @@ git commit --amend --no-edit --date "$(date)"
 git commit --amend --no-edit --date "Mar 06 2021 20:20:20 +0900"
 
 "" 사이에 원하는 날짜,연도,시간을 기입하면 됨.
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 217919820adc32d369eaef4a1c14d7e46e8f8401
