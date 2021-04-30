@@ -26,3 +26,12 @@ STS(Spring Tool Suits) 가이드북 제작 개요( STS GuidebooK Production Over
                 - SOURCE : 소스파일에만 존재, 클래스 파일에 미존재 --> @Override / @SupressWarings 같은 컴파일러에 의해 사용되는 어노테이션 유지 정책
                 - CLASS : 클래스 파일에 존재 BUT 런타임 시 사용 불가. ---> Retention 어노테이션의 default값. 런타임시 사용 불가이기 때문에 잘사용 안함.
                 - RUNTIME : 클래스 파일에 존재 런타임 시에도 사용 가능. ---> 런타임 시 Reflection을 통해 클래스 파일에 저장된 어노테이션 정보를 읽어서 처리.
+<<<<<<< HEAD
+=======
+              - 2)-3. @Documented          : 어노테이션에 대한 정보가 jvavadoc으로 작성한 문서에 포함되도록 하는 어노테이션. @Override / SupressWanings 어노테이션을 제외한 모든 어노테이션에 붙어있음.
+              - 2)-4. @Inherited           : 어노테이션이 자손 클래스에도 상속되도록 하는 어노테이션. 조상 클래스에 붙이면 자손 클래스에도 이 어노테이션이 붙는 효과를 가짐. 
+            - 3). `Custom-annotion`      : 개발자가 직접 만드는 어노테이션
+            
+
+
+>>>>>>> 8474d9f8288f54f280776f03173eef82fcb15882
