@@ -14,4 +14,6 @@ STS 툴에 대한 이해도를 높이기 위함. <p>To improve understanding of 
 : [홈페이지에서 설치](https://projectlombok.org/download)
 ### (3) JDK 설치
 : [1.8 version 설치](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
+
 해당 프로젝트 및 필요 버전은 고려해서 오라클 홈페이지에서 다운로드
+
