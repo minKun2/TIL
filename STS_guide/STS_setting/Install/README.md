@@ -24,6 +24,7 @@
 sts 설치가 끝나면 바로 닫아주시고, lombok을 설치해 보겠습니다.
 
 lombok을 설치하는 이유는 아래에 링크를 통해 확인하시면 됩니다.
+
 [lombok설치 이유]()
 
 ![lombok저장](https://user-images.githubusercontent.com/80079066/116949671-ebcfe980-acbd-11eb-9e5e-f1fca65eb9f8.PNG)
@@ -52,5 +53,5 @@ jdk를 설치를 하셨으면, 아마 C:\Program Files\Java 위치에 폴더가 
  
 [jdk 환경변수 설정 이유]()
 
-내PC에서 마우스 우클릭 후 속성 or 제어판 -> 고급 시스템 설정 -> 고급 -> 환경변수 
+- 내PC에서 마우스 우클릭 후 속성 or 제어판 -> 고급 시스템 설정 -> 고급 -> 환경변수 
 ![jdk설정2](https://user-images.githubusercontent.com/80079066/116951411-b8dc2480-acc2-11eb-927a-1addc2df5fda.PNG)
