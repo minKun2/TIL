@@ -18,9 +18,12 @@
 
 #### lombok 설치
 sts 설치가 끝나면 바로 닫아주시고, lombok을 설치해 보겠습니다.
+
 lombok을 설치하는 이유는 아래에 링크를 통해 확인하시면 됩니다.
 [lombok설치 이유]()
+
 ![lombok저장](https://user-images.githubusercontent.com/80079066/116949671-ebcfe980-acbd-11eb-9e5e-f1fca65eb9f8.PNG)
+
 위 사진처럼 다운로드 받은 lombok.jar 파일을 아까 압축을 해제한 STS폴더로 복사하여 가져옵니다.
 그리고 클릭!
 
