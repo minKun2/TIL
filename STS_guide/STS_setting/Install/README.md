@@ -55,3 +55,15 @@ jdk를 설치를 하셨으면, 아마 C:\Program Files\Java 위치에 폴더가 
 
 - 내PC에서 마우스 우클릭 후 속성 or 제어판 -> 고급 시스템 설정 -> 고급 -> 환경변수 
 ![jdk설정2](https://user-images.githubusercontent.com/80079066/116951411-b8dc2480-acc2-11eb-927a-1addc2df5fda.PNG)
+
+- 새로만들기 클릭 -> 변수 이름( 대부분 JAVA_HOME으로 설정 )과 변수 값 설정 ( 변수 값은 JDK가 설치된 경로를 입력 ) 
+![jdk설정3](https://user-images.githubusercontent.com/80079066/116951416-baa5e800-acc2-11eb-9fb7-b80aad837edf.PNG)
+
+- 환경변수를 만든 후 PATH 변수에도 추가 시켜주어야 합니다. PATH 클릭 -> 편집 -> 새로만들기 -> %JAVA_HOME%\bin 추가 
+![jdk설정4](https://user-images.githubusercontent.com/80079066/116951420-bbd71500-acc2-11eb-8d87-a872e9ee7d58.PNG)
+
+- 이렇게 되면 JDK 환경 변수 설정이 완료되었습니다. 그럼 잘 적용이 되었는지 확인해보겠습니다. cmd 창을 열고 'java -version'을 입력합니다
+![jdk설정마무리](https://user-images.githubusercontent.com/80079066/116951424-bed20580-acc2-11eb-98af-e02ce5648f7a.PNG)
+
+- 위 사진처럼 JDK버전이 정상적으로 확인되면 JDK 설치가 완료 된 것입니다.
+
