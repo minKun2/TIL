@@ -16,3 +16,11 @@
 - 압축을 해제한 폴더에 workspace를 같이 만들어 주고, sts의 workspace도 해당 폴더에서 런치할수 있도록 했습니다. 다른 곳에 만들어서 실행하니
 해결되지 않는 오류가 발생하는 경우가 생겨 같이 만들어주고 꼭 workspace 지정 후 해당 폴더에 `.metadata`라는 파일이 잘 생성이 되었는지 확인해 줍시다.
 
+#### lombok 설치
+sts 설치가 끝나면 바로 닫아주시고, lombok을 설치해 보겠습니다.
+lombok을 설치하는 이유는 아래에 링크를 통해 확인하시면 됩니다.
+[lombok설치 이유]()
+![lombok저장](https://user-images.githubusercontent.com/80079066/116949671-ebcfe980-acbd-11eb-9e5e-f1fca65eb9f8.PNG)
+위 사진처럼 다운로드 받은 lombok.jar 파일을 아까 압축을 해제한 STS폴더로 복사하여 가져옵니다.
+그리고 클릭!
+
