@@ -76,3 +76,6 @@ jdk를 설치를 하셨으면, 아마 C:\Program Files\Java 위치에 폴더가 
 ### 첫번째 STS 안에서 직접 설정
 
 - STS 실행 -> [Window] -> [Preferences] -> [Java] -> [Installed JREs]
+
+![image](https://user-images.githubusercontent.com/80079066/117406962-d4586100-af48-11eb-9491-7bd82e2e2877.png)
+
