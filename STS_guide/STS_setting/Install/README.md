@@ -91,4 +91,4 @@ jdk를 설치를 하셨으면, 아마 C:\Program Files\Java 위치에 폴더가 
 
 ![STS JDK 설정 3](https://user-images.githubusercontent.com/80079066/117592733-b2432680-b174-11eb-95a5-e03f0ee80470.PNG)
 
-
+이렇게 하면 STS의 기본 설치가 끝이 났습니다.
