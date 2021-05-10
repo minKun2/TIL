@@ -89,5 +89,6 @@ jdk를 설치를 하셨으면, 아마 C:\Program Files\Java 위치에 폴더가 
 
 아래와 같이 뜨게 되면 정상적으로 적용 된 것 [Finish] 
 
+![STS JDK 설정 3](https://user-images.githubusercontent.com/80079066/117592733-b2432680-b174-11eb-95a5-e03f0ee80470.PNG)
 
 
