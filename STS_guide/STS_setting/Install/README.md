@@ -85,7 +85,9 @@ jdk를 설치를 하셨으면, 아마 C:\Program Files\Java 위치에 폴더가 
 
 [Directory] -> (JDK가 있는 폴더로 가서 폴더를 클릭 후) [폴더 선택]
 
+![STS JDK 설정 2](https://user-images.githubusercontent.com/80079066/117592730-b111f980-b174-11eb-8327-ec9ab9ee05d4.PNG)
 
+아래와 같이 뜨게 되면 정상적으로 적용 된 것 [Finish] 
 
 
 
