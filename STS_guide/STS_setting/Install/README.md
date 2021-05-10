@@ -79,3 +79,8 @@ jdk를 설치를 하셨으면, 아마 C:\Program Files\Java 위치에 폴더가 
 
 ![image](https://user-images.githubusercontent.com/80079066/117406962-d4586100-af48-11eb-9491-7bd82e2e2877.png)
 
+[Add] -> [Standard VM] -> [Next]
+![STS JDK 설정 1](https://user-images.githubusercontent.com/80079066/117592727-b0796300-b174-11eb-9629-4395674a9fdd.PNG)
+
+
+
