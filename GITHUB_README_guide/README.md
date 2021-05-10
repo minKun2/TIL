@@ -38,4 +38,11 @@
 
 - emoji 모음 링크 [이모지](https://gist.github.com/rxaviers/7360908)
 
+## 3. GitHub Stats 사용하기
+
+- `[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=username)](https://github.com/anuraghazra/github-readme-stats)`
+- 위에서 username을 수정해서 사용해주면 아래의 모습이 나옵니다.
+
+  [![Anurag's github stats](https://github-readme-stats.vercel.app/api?minkun2=minkun2)](https://github.com/anuraghazra/github-readme-stats)
+
 
