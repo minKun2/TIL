@@ -43,6 +43,6 @@
 - `[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=username)](https://github.com/anuraghazra/github-readme-stats)`
 - 위에서 username을 수정해서 사용해주면 아래의 모습이 나옵니다.
 
-  [![Anurag's github stats](https://github-readme-stats.vercel.app/api?minKun2=minKun2)](https://github.com/anuraghazra/github-readme-stats)
+  [![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=minKun2)](https://github.com/anuraghazra/github-readme-stats)
 
 
