@@ -12,6 +12,14 @@
  
  1-2. Google Play Console 접속 ([Google Play Console](https://play.google.com/console/u/0/signup))
  
+ ![안드로이드_계정생성](https://user-images.githubusercontent.com/80079066/117743096-1501f400-b241-11eb-89a3-0271400addbe.PNG)
+
+### 2. Google Play에 앱 등록하기
+
+ 2-1. 앱 등록 방법
+  - 워낙 복잡하기에 링크를 첨부합니다. [Google Play App 등록 절차](https://imweb.me/faq?mode=view&category=29&category2=55&idx=210)
+ 
+  * 광고가 아닌 잘 정리가 되어 인용하였습니다.
 
 ## IOS
 ### 1. 개발자 계정 생성
