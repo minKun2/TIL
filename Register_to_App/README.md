@@ -23,4 +23,5 @@
 
 ## IOS
 ### 1. Apple 개발자 계정 생성
- - IOS(Apple) 개발자 계정 생성은 굉장히 까다롭습니다. 잘 정리된 것이 있어 첨부합니다. 첨부링크를 따라하면  Apple 개발자 계정 생성이 완료 됩니다. ([Apple 개발자 계성 생성 가이드](https://support.guidebook.com/hc/ko/articles/360000228487-Apple-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EA%B3%84%EC%A0%95-%EB%A7%8C%EB%93%A4%EA%B8%B0-Apple-Developer-Account-))
+ - IOS(Apple) 개발자 계정 생성은 굉장히 까다롭습니다.
+ - 아래에 첨부한 링크를 따라하면  Apple 개발자 계정 생성이 완료 됩니다. ([Apple 개발자 계성 생성 가이드](https://support.guidebook.com/hc/ko/articles/360000228487-Apple-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EA%B3%84%EC%A0%95-%EB%A7%8C%EB%93%A4%EA%B8%B0-Apple-Developer-Account-))
