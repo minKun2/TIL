@@ -25,7 +25,8 @@
 ### 1. Apple 개발자 계정 생성
  - IOS(Apple) 개발자 계정 생성은 굉장히 까다롭습니다.
  - 계정 생성 과정과 앱 등록 과정에서 Apple 기기가 필요합니다.(Mac Book / Iphone / Ipad ... etc)
- - 아래에 첨부한 링크를 따라하면  Apple 개발자 계정 생성이 완료 됩니다. ([Apple 개발자 계성 생성 가이드](https://support.guidebook.com/hc/ko/articles/360000228487-Apple-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EA%B3%84%EC%A0%95-%EB%A7%8C%EB%93%A4%EA%B8%B0-Apple-Developer-Account-))
+ - 아래에 첨부한 링크를 따라하면  Apple 개발자 계정 생성이 완료 됩니다.
+   ([Apple 개발자 계성 생성 가이드](https://support.guidebook.com/hc/ko/articles/360000228487-Apple-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EA%B3%84%EC%A0%95-%EB%A7%8C%EB%93%A4%EA%B8%B0-Apple-Developer-Account-))
  - IOS(Apple) 개발자 계정을 생성하면 매년 연회비 $99 USD | 한화 129,000원 정도가 지불됩니다.
  - 이중 인증 활성화를 꼭 해주셔야 합니다. 
 
