@@ -9,7 +9,8 @@
 |회사에서 개발한 앱 등록시 회사 계정으로 Gmail 생성| 
 
  1-1. Gmail 계정 생성
- 1-2. Google Play Console 접속 ([Google Play Console]<https://play.google.com/console/u/0/signup>)
+ 
+ 1-2. Google Play Console 접속 [Google Play Console]<https://play.google.com/console/u/0/signup>
  
 
 ## IOS
