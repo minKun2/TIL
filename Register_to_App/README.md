@@ -32,4 +32,4 @@
 ### 2. Apple Market에 앱 등록 하기
  - 위와 마찬가지로 아래에 첨부한 링크를 따라하면 Apple Market에 앱 심사가 들어갑니다.
  
- [Apple Market 앱 등록 가이드](http://digitalnomadcamp.kr/article/%EC%95%B1%ED%9B%84%EA%B8%B0/4/492/)
+   [Apple Market 앱 등록 가이드](http://digitalnomadcamp.kr/article/%EC%95%B1%ED%9B%84%EA%B8%B0/4/492/)
