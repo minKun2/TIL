@@ -4,6 +4,8 @@
 
 ![파일있음1](https://user-images.githubusercontent.com/80079066/118419372-bc29d400-b6f6-11eb-8582-b197ac830fa8.png)
 
+- [Maven] -> [Existing Maven Projects] 클릭
+
 
 
 ## (2) GIT에서 직접 프로젝트를 받는 경우
