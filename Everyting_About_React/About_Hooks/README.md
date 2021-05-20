@@ -12,6 +12,7 @@
 #### 1. useState 란? :interrobang:
  - 가장 기본적인 Hook 함수형 component에서 가변적인 상태를 지니고 있게 해준다. 상태를 관리해줘야 할 일이 생긴다면 useState를 사용하면 됩니다.
 #### 1-1. useState 사용 방법
+##### useState 이용
  - Count.js 파일을 src에 만들어줍니다.
  
  ```
@@ -37,3 +38,65 @@
  ![리액트 useState 결과값](https://user-images.githubusercontent.com/80079066/118945892-db439280-b990-11eb-9d67-7f3e54a70f39.png)
 
  - 숫자가 증가하거나 감소하면 성공!:clap:
+
+##### useState 여러번 이용해 보기!
+
+- 이번엔 src 안에 Info.js를 만들어 봅시다. 만든 후 아래와 같이 입력해 봅시다.
+
+```
+import React, { useState } from "react";
+
+const Info = () => {
+  const [name, setName] = useState("");       // 이름을 입력 받을 useState
+  const [adress, setAdress] = useState("");   // 주소를 입력 받을 useState
+  const [phoneNm, setPhoneNm] = useState(""); // 전화번호를 입력 받을 useState
+
+  const onChangeName = (e) => {
+    setName(e.target.value);                  // 입력할 때 마다 name 값을 변경
+  };
+  const onChangeadress = (e) => {
+    setAdress(e.target.value);                // 입력할 때 마다 adress 값을 변경
+  };
+  const onChangePhoneNm = (e) => {
+    setPhoneNm(e.target.value);               // 입력할 때 마다 phoneNm 값을 변경
+  };
+
+  return (
+    <div>
+      <div>
+        <input
+          value={name}
+          placeholder="성함을 입력해주세요."   //*placeholder : 입력하기 전 음영으로 안내문구 띄우기
+          onChange={onChangeName}
+        />
+        <input
+          value={adress}
+          placeholder="주소를 입력해주세요."
+          onChange={onChangeadress}
+        />
+        <input
+          value={phoneNm}
+          placeholder="핸드폰 번호를 입력해주세요."
+          onChange={onChangePhoneNm}
+        />
+      </div>
+      <div>
+        <div>
+          <b>성함 :</b>
+          {name}
+        </div>
+        <div>
+          <b>주소 :</b> {adress}
+        </div>
+        <div>
+          <b>핸드폰 번호 :</b> {phoneNm}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Info;
+```
+
+- 아래과 같이 뜨게 된다면 성공!:clap:
