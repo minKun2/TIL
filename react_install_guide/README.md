@@ -23,13 +23,14 @@ $ nvm install --lts
 
 
 > Yarn 설치
-> [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable)
+
+ [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable)
 
 > Yarn 설치 
-> : `npm install --global yarn`
+ : `npm install --global yarn`
 
 > yarn 버전
-> : `yarn --version`
+ : `yarn --version`
  
 ### VS code (Visual Studio Code)
 
