@@ -3,7 +3,7 @@
 ## 필요 파일( needs file )
 ### node.js 
 
-<img src = "https://user-images.githubusercontent.com/80079066/119083438-e4893980-ba3a-11eb-8694-6ded536f676d.png" width="100" height="40"}
+<img src = "https://user-images.githubusercontent.com/80079066/119083438-e4893980-ba3a-11eb-8694-6ded536f676d.png" width="100px" height="40px"}
 
 Window => Node.js 공식 홈페이지에서 최신 LTS 버전 설치
 
