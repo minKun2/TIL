@@ -32,7 +32,7 @@ Yarn 설치
  
 ### VS code (Visual Studio Code)
 
-<img src="https://user-images.githubusercontent.com/80079066/119083442-e5ba6680-ba3a-11eb-9b9a-1a4b97252848.png" width="600px" hegiht="400">
+<img src="https://user-images.githubusercontent.com/80079066/119083442-e5ba6680-ba3a-11eb-9b9a-1a4b97252848.png" width="600px" hegiht="400px">
 
  VS Code 설치
  
