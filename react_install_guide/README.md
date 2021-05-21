@@ -79,6 +79,6 @@ $ nvm install --lts
 
 ![VS 폴더 선택](https://user-images.githubusercontent.com/80079066/119086513-86f7eb80-ba40-11eb-80ee-79f6763151ab.png)
 
-> 
+> 완료! 👏
 
 
