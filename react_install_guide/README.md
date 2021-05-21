@@ -2,21 +2,19 @@
 
 ## 필요 파일( needs file )
 
+
 <img src="https://user-images.githubusercontent.com/80079066/119083438-e4893980-ba3a-11eb-8694-6ded536f676d.png" width="200px" height="100px"><img src="https://user-images.githubusercontent.com/80079066/119083443-e5ba6680-ba3a-11eb-9f40-7153d8ed00ba.png" width="200px" height="100px"><img src="https://user-images.githubusercontent.com/80079066/119083442-e5ba6680-ba3a-11eb-9b9a-1a4b97252848.png" width="200px" hegiht="100px"><img src="https://user-images.githubusercontent.com/80079066/119083440-e521d000-ba3a-11eb-82e8-2074b9966ea9.png" width="200px" hegiht="100px">
-
-
-
+-------------------------------------------------------------------------------------------
 
 
 ### node.js 
 
-<img src="https://user-images.githubusercontent.com/80079066/119083438-e4893980-ba3a-11eb-8694-6ded536f676d.png" width="600px" height="400px">
 
-Window => Node.js 공식 홈페이지에서 최신 LTS 버전 설치
+> Window => Node.js 공식 홈페이지에서 최신 LTS 버전 설치
 
-[Node.js](https://nodejs.org/en/) 
+> [Node.js](https://nodejs.org/en/) 
 
-mac/Linux nvm 명령어 이용 Node.js 설치 
+> mac/Linux nvm 명령어 이용 Node.js 설치 
 
 ```
 $ curl -o- https:rww.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash 
@@ -25,7 +23,6 @@ $ nvm install --lts
 
 ### Yarn
 
-<img src="https://user-images.githubusercontent.com/80079066/119083443-e5ba6680-ba3a-11eb-9f40-7153d8ed00ba.png" width="600px" height="400px">
 
 Yarn 설치
 
@@ -39,7 +36,6 @@ Yarn 설치
  
 ### VS code (Visual Studio Code)
 
-<img src="https://user-images.githubusercontent.com/80079066/119083442-e5ba6680-ba3a-11eb-9b9a-1a4b97252848.png" width="600px" hegiht="400px">
 
  VS Code 설치
  
@@ -47,7 +43,6 @@ Yarn 설치
  
 ### ConEmu 
 
-<img src="https://user-images.githubusercontent.com/80079066/119083440-e521d000-ba3a-11eb-82e8-2074b9966ea9.png" width="600px" hegiht="400px">
 
 ConEmu 설치 
 
