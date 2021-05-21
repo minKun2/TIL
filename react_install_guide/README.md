@@ -56,6 +56,15 @@ $ nvm install --lts
 > cmd or ConEmu 창 열어서 원하는 곳에 React Project folder 생성
 > 
 > 명령어 : ` $ npx create-react-app [프로젝트 이름] `
+>
+> yarn 프로젝트에 적용 및 설치 하기
+> 
+> 명령어 : ` $ yarn install `
+>
+> yarn 실행하기
+> 
+> 명령어 : ` $ yarn start `
+
 
 
 
