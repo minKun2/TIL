@@ -24,11 +24,12 @@ $ nvm install --lts
 
 > Yarn 설치
 > [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable)
+
 > Yarn 설치 
->> : `npm install --global yarn`
+> : `npm install --global yarn`
 
 > yarn 버전
->> : `yarn --version`
+> : `yarn --version`
  
 ### VS code (Visual Studio Code)
 
@@ -40,13 +41,13 @@ $ nvm install --lts
 
 >ConEmu 설치 
 >[ConEmu](https://conemu.github.io/)
->>: 여러개의 cmd창을 열어 여러개의 프로젝트를 관리할 수 잇음.
+>: 여러개의 cmd창을 열어 여러개의 프로젝트를 관리할 수 잇음.
  
 ## 새프로젝트 만들기
  
 > React Project 생성하기
->> cmd or ConEmu 창 열어서 원하는 곳에 React Project folder 생성 
->> 명령어 : ` $ npx create-react-app [프로젝트 이름] `
+> cmd or ConEmu 창 열어서 원하는 곳에 React Project folder 생성 
+> 명령어 : ` $ npx create-react-app [프로젝트 이름] `
 
 
 
