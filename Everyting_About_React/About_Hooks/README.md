@@ -15,7 +15,7 @@
 ##### useState 이용
  - Count.js 파일을 src에 만들어줍니다.
  
- ```java
+ ```js
  import React, { useState } from 'react'; // useState 선언
  
  const Count = () => {
