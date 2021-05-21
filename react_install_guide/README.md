@@ -11,9 +11,7 @@
 
 
 > Window => Node.js 공식 홈페이지에서 최신 LTS 버전 설치
-
 > [Node.js](https://nodejs.org/en/) 
-
 > mac/Linux nvm 명령어 이용 Node.js 설치 
 
 ```
@@ -24,15 +22,12 @@ $ nvm install --lts
 ### Yarn
 
 
-Yarn 설치
-
-[Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable)
-
-- Yarn 설치
- 
-  : `npm install --global yarn`
-- yarn 버전
-  : `yarn --version`
+>Yarn 설치
+>[Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable)
+>Yarn 설치 
+>>: `npm install --global yarn`
+>yarn 버전
+>>: `yarn --version`
  
 ### VS code (Visual Studio Code)
 
