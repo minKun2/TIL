@@ -73,7 +73,12 @@ $ nvm install --lts
 
 > VScode 오픈
 
+![vscode초기화면](https://user-images.githubusercontent.com/80079066/119086509-85c6be80-ba40-11eb-8ace-333cdcdb6ecd.png)
 
+> file 경로 폴더 선택
 
+![VS 폴더 선택](https://user-images.githubusercontent.com/80079066/119086513-86f7eb80-ba40-11eb-80ee-79f6763151ab.png)
+
+> 
 
 
