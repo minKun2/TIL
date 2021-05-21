@@ -18,7 +18,7 @@ $ nvm install --lts
 
 ### Yarn
 
-![yarn](https://user-images.githubusercontent.com/80079066/119083443-e5ba6680-ba3a-11eb-9f40-7153d8ed00ba.png)
+<img src="https://user-images.githubusercontent.com/80079066/119083443-e5ba6680-ba3a-11eb-9f40-7153d8ed00ba.png" width="600px" height="400px">
 
 Yarn 설치
 
@@ -32,7 +32,7 @@ Yarn 설치
  
 ### VS code (Visual Studio Code)
 
-![vscode](https://user-images.githubusercontent.com/80079066/119083442-e5ba6680-ba3a-11eb-9b9a-1a4b97252848.png)
+<img src="https://user-images.githubusercontent.com/80079066/119083442-e5ba6680-ba3a-11eb-9b9a-1a4b97252848.png" width="600px" hegiht="400">
 
  VS Code 설치
  
@@ -40,8 +40,7 @@ Yarn 설치
  
 ### ConEmu 
 
-![conemu](https://user-images.githubusercontent.com/80079066/119083440-e521d000-ba3a-11eb-82e8-2074b9966ea9.png)
-
+<img src="https://user-images.githubusercontent.com/80079066/119083440-e521d000-ba3a-11eb-82e8-2074b9966ea9.png" width="600px" hegiht="400px">
 
 ConEmu 설치 
 
