@@ -69,6 +69,11 @@ $ nvm install --lts
 
 ![image](https://user-images.githubusercontent.com/80079066/119085308-7b0b2a00-ba3e-11eb-9afd-450b81c03c88.png)
 
+## VScode에 만든 프로젝트 띄우기
+
+> VScode 오픈
+
+
 
 
 
