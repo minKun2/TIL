@@ -15,7 +15,7 @@
 ##### useState 이용
  - Count.js 파일을 src에 만들어줍니다.
  
- ```tsx
+ ```js
  import React, { useState } from 'react'; // useState 선언
  
  const Count = () => {
@@ -43,7 +43,7 @@
 
 - 이번엔 src 안에 Info.js를 만들어 봅시다. 만든 후 아래와 같이 입력해 봅시다.
 
-```
+```js
 import React, { useState } from "react";
 
 const Info = () => {
