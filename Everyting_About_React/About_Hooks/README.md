@@ -119,21 +119,21 @@ export default Info;
 <b>* useEffect는 렌더링, 변수 값 or 오브젝트가 달라지게 되면, 알아채고 업데이트하는 함수입니다. </b>
 
  - 사용법
-1.
-```javascript
-useEffect (()=>{});
-```
-  - 가장 기본 형태지만, 거의 사용하지 않습니다! Dependency가 없어서 렌더링 할 때 한번, 값이 바뀔때 마다 발생하여 불필요한 실행이 많아짐.
+1. 
+> ```javascript
+> useEffect (()=>{});
+> ```
+👉 기본 형태지만, 거의 사용하지 않습니다! Dependency가 없어서 렌더링 할 때 한번, 값이 바뀔때 마다 발생하여 불필요한 실행이 많아짐.
  
 2.
-```javascript
+👉```javascript
 useEffect (() => {},[])
 ```
   - 렌더링 후 한번만 실행하고 싶을 때, 콜백함수 뒤에 배열을 나타내는 대괄호를 작성합니다. 대괄호 안에 Dependency를 지정합니다.
 대괄호 안에 아무런 값이 없으면 렌더링 후 단 한번만 실행되고 다시 실행되지 않습니다.
 
 3.
-```javascript
+👉```javascript
 const [naem, setName] = useState();
 useEffect (() => {},[name])
 ```
