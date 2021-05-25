@@ -9,6 +9,11 @@
 > 3. 재사용이 가능한 로직을 쉽게 만들 수 있다.
 
 ### Hooks의 종류와 사용 방법
+> 1. useState
+> 2. useEffect
+> 3. useRef
+> 4. useMemo
+
 #### 1. useState 란? :interrobang:
  - 가장 기본적인 Hook 함수형 component에서 가변적인 상태를 지니고 있게 해준다. 상태를 관리해줘야 할 일이 생긴다면 useState를 사용하면 됩니다.
 #### 1-1. useState 사용 방법
