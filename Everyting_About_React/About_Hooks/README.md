@@ -113,5 +113,6 @@ export default Info;
 #### 2. useEffect 란? :interrobang:
  - 페이지가 렌더링한 후 useEffect는 무조건 한번 실행합니다.
  - useEffect에 배열로 지정한 useState 값이 변경이 되면 실행하는 훅입니다.
- <span color = "red"> * useEffect는 렌더링, 변수 값 or 오브젝트가 달라지게 되면, 알아채고 업데이트하는 함수입니다. </span>
+
+<span style = "color:red"> * useEffect는 렌더링, 변수 값 or 오브젝트가 달라지게 되면, 알아채고 업데이트하는 함수입니다. </span>
  
