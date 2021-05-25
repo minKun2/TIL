@@ -118,7 +118,7 @@ export default Info;
 
  - 사용법
 1.
-```java
+```javascript
 useEffect (()=>{});
 ```
  
