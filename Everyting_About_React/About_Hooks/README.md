@@ -117,7 +117,8 @@ export default Info;
 <b>* useEffect는 렌더링, 변수 값 or 오브젝트가 달라지게 되면, 알아채고 업데이트하는 함수입니다. </b>
 
  - 사용법
-1.```java
+1.
+```java
 useEffect (()=>{});
 ```
  
