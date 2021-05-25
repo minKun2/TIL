@@ -16,7 +16,7 @@
 
 #### 1. useState 란? :interrobang:
  - 가장 기본적인 Hook 함수형 component에서 가변적인 상태를 지니고 있게 해준다. 상태를 관리해줘야 할 일이 생긴다면 useState를 사용하면 됩니다.
-#### 1-1. useState 사용 방법
+#### useState 사용 방법
 ##### useState 이용
  - Count.js 파일을 src에 만들어줍니다.
  
@@ -108,3 +108,10 @@ export default Info;
 
 ![usestate 중복으로 사용하기](https://user-images.githubusercontent.com/80079066/118953669-01b8fc00-b998-11eb-89a8-aa2e7b23f5e5.png)
 
+-----------------------------------------------------------
+
+#### 2. useEffect 란? :interrobang:
+ - 페이지가 렌더링한 후 useEffect는 무조건 한번 실행합니다.
+ - useEffect에 배열로 지정한 useState 값이 변경이 되면 실행하는 훅입니다.
+ <span color = "red"> * useEffect는 렌더링, 변수 값 or 오브젝트가 달라지게 되면, 알아채고 업데이트하는 함수입니다. </span>
+ 
