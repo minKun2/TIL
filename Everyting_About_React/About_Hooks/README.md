@@ -38,6 +38,19 @@
  
  export defualt Count;
  ```
+ 
+ - App.js
+
+```js
+import React from 'react';
+
+const App = () => {
+ return <Count />;
+};
+
+export defualt App;
+```
+
  - 위의 코드를 입력해보세요. 그리고 cmd 창에서 `yarn start`를 입력하여 실행시켜 줍니다.
  
  ![리액트 useState 결과값](https://user-images.githubusercontent.com/80079066/118945892-db439280-b990-11eb-9d67-7f3e54a70f39.png)
