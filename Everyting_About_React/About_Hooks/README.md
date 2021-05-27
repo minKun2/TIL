@@ -14,10 +14,10 @@
 > 3. useRef
 > 4. useMemo
 
-#### 1. useState 란? :interrobang:
+### 1. useState 란? :interrobang:
  - 가장 기본적인 Hook 함수형 component에서 가변적인 상태를 지니고 있게 해준다. 상태를 관리해줘야 할 일이 생긴다면 useState를 사용하면 됩니다.
-#### useState 사용 방법
-##### useState 이용
+### useState 사용 방법
+#### useState 이용
  - Count.js 파일을 src에 만들어줍니다.
  
  ```js
@@ -57,7 +57,7 @@ export defualt App;
 
  - 숫자가 증가하거나 감소하면 성공!:clap:
 
-##### useState 여러번 이용해 보기!
+#### useState 여러번 이용해 보기!
 
 - 이번엔 src 안에 Info.js를 만들어 봅시다. 만든 후 아래와 같이 입력해 봅시다.
 
@@ -138,7 +138,7 @@ export default App;
 
 -----------------------------------------------------------
 
-#### 2. useEffect 란? :interrobang:
+### 2. useEffect 란? :interrobang:
  - 페이지가 렌더링한 후 useEffect는 무조건 한번 실행합니다.
  - useEffect에 배열로 지정한 useState 값이 변경이 되면 실행하는 훅입니다.
 
