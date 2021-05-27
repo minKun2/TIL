@@ -145,23 +145,26 @@ export default App;
 
 #### useEffect 사용법
 1. 
-> ```javascript
-> useEffect (()=>{});
-> ```
+ ```js
+ useEffect (()=>{});
+ ```
+
 👉 기본 형태지만, 거의 사용하지 않습니다! Dependency가 없어서 렌더링 할 때 한번, 값이 바뀔때 마다 발생하여 불필요한 실행이 많아짐.
  
 2.
-> ```javascript
-> useEffect (() => {},[])
-> ```
+ ```js
+ useEffect (() => {},[])
+ ```
+
 👉 렌더링 후 한번만 실행하고 싶을 때, 콜백함수 뒤에 배열을 나타내는 대괄호를 작성합니다. 대괄호 안에 Dependency를 지정합니다.
 대괄호 안에 아무런 값이 없으면 렌더링 후 단 한번만 실행되고 다시 실행되지 않습니다.
 
 3.
-> ```javascript
-> const [naem, setName] = useState();
-> useEffect (() => {},[name])
-> ```
+ ```js
+ const [naem, setName] = useState();
+ useEffect (() => {},[name])
+ ```
+
 👉 렌더링 후 배열 안의 변수 값이 변할 때마다 실행합니다. Dependency에 지정된 변수값이 변할 때만 실행합니다.
 
  
