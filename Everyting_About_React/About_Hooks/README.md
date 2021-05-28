@@ -168,4 +168,23 @@ export default App;
 
 👉 렌더링 후 배열 안의 변수 값이 변할 때마다 실행합니다. Dependency에 지정된 변수값이 변할 때만 실행합니다.
 
+
+#### useEffect 예시
  
+이번엔 `Info.js` 파일을 사용해서 이용해 봅시다. 
+다음과 같이 작성해 주세요~!
+
+### Info.js
+```js
+import React,{ useState, useEffect } from 'react';
+
+const Info = () => {
+ const [name, setName] = useState("");
+ const [address, setAddress] = useState("");
+ const [phoneNm, setPhoneNm] = useState("");
+ const [value, setValue] = useState({
+  name : "",
+  address : "",
+  phoneNm : "",
+ });
+```
