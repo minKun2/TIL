@@ -187,4 +187,7 @@ const Info = () => {
   address : "",
   phoneNm : "",
  });
+ 
+ 
+ 
 ```
