@@ -236,12 +236,24 @@ const Info = () => {
  );
 };
 
-export default Info;
-  
- 
- 
-
- 
- 
- 
+export default Info; 
 ```
+
+ - 첫 진입시 console 화면 ( console 화면 띄우는 법 [F12] -> [console] )
+
+   name,address,phoneNm 은 값이 null값이기 때문에 비동기화되었습니다.
+
+![useEffect예제 1 1번](https://user-images.githubusercontent.com/80079066/120287875-9efe2380-c2fa-11eb-9e45-aa4c03e9e564.png)
+ 
+ - 'name'에 값을 입력하는 경우 console 화면
+
+   name,address,phoneNm이 바뀔때마다 useEffect가 실행됩니다.
+   
+![useEffect예제 1 2번](https://user-images.githubusercontent.com/80079066/120287879-9f96ba00-c2fa-11eb-9cdf-0998d795d8e2.png)
+
+ - 'count'의 값을 변경하는 경우
+
+ useEffect에 console을 찍지 않은 'count'값이 바뀌는 경우에도 useEffect 문이 계속 실행되는 것을 알 수 있습니다.
+ 
+![useEffect예제 1 3번](https://user-images.githubusercontent.com/80079066/120287883-a02f5080-c2fa-11eb-92c4-79884bb89931.png)
+
