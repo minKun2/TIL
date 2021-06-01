@@ -239,19 +239,19 @@ const Info = () => {
 export default Info; 
 ```
 
- - 첫 진입시 console 화면 ( console 화면 띄우는 법 [F12] -> [console] )
+👉 첫 진입시 console 화면 ( console 화면 띄우는 법 [F12] -> [console] )
 
    name,address,phoneNm 은 값이 null값이기 때문에 비동기화되었습니다.
 
 ![useEffect예제 1 1번](https://user-images.githubusercontent.com/80079066/120287875-9efe2380-c2fa-11eb-9e45-aa4c03e9e564.png)
  
- - 'name'에 값을 입력하는 경우 console 화면
+👉 'name'에 값을 입력하는 경우 console 화면
 
    name,address,phoneNm이 바뀔때마다 useEffect가 실행됩니다.
    
 ![useEffect예제 1 2번](https://user-images.githubusercontent.com/80079066/120287879-9f96ba00-c2fa-11eb-9cdf-0998d795d8e2.png)
 
- - 'count'의 값을 변경하는 경우
+👉 'count'의 값을 변경하는 경우
 
  useEffect에 console을 찍지 않은 'count'값이 바뀌는 경우에도 useEffect 문이 계속 실행되는 것을 알 수 있습니다.
  
@@ -271,9 +271,9 @@ useEffect(() => {
 ...(중략)
 ```
 
-달라진 부분은 바로 끝부분에 []대괄호를 넣어줬습니다. 앞에서 설명드렸다싶이 이렇게 대괄호로를 넣어주면, 화면이 랜더링 될 때, 딱 한번만 렌더링하고 더 이상 실행하지 않습니다.
+👉 달라진 부분은 바로 끝부분에 []대괄호를 넣어줬습니다. 앞에서 설명드렸다싶이 이렇게 대괄호로를 넣어주면, 화면이 랜더링 될 때, 딱 한번만 렌더링하고 더 이상 실행하지 않습니다.
 
-- 실행결과
+👉 실행결과
 
 ![useEffect예제2](https://user-images.githubusercontent.com/80079066/120291571-695b3980-c2fe-11eb-9753-0fbcf34d4091.png)
 
@@ -291,8 +291,8 @@ useEffect(() => {
 }, [name]);
 
 ```
-여기서 달라진 부분은 대괄호[]안에 name값을 넣어줬는데요. 위에서의 설명처럼 name값이 바뀌게 되면! useEffect를 실행하도록 설정해 준 것입니다. name이 아닌 다른 값이 바뀌면 useEffect문은 실행되지 않습니다!
+👉 여기서 달라진 부분은 대괄호[]안에 name값을 넣어줬는데요. 위에서의 설명처럼 name값이 바뀌게 되면! useEffect를 실행하도록 설정해 준 것입니다. name이 아닌 다른 값이 바뀌면 useEffect문은 실행되지 않습니다!
 
-- 실행결과
+👉 실행결과
 
 ![useEffect예제3](https://user-images.githubusercontent.com/80079066/120292013-dc64b000-c2fe-11eb-8249-40abb12c6844.png)
