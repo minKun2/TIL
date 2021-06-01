@@ -188,7 +188,7 @@ const Info = () => {
  
  useEffect(() => {
   console.log("effect");                          // useEffect가 실행될 때마다 콘솔에 찍어줌.
-  console.log(name, address, phoneNm);            // name,address,phoneNm에 변경이 있을 때마다 콘솔에 찍어줌. (위에있는 effect랑 같이 찍힘.)
+  console.log(name, address, phoneNm);            // useEffect가 실행될 때마다 name, address, phoneNm값을 콘솔에 찍어줌.
 });
 
  const onChangeName = (e) => {
@@ -257,3 +257,20 @@ export default Info;
  
 ![useEffect예제 1 3번](https://user-images.githubusercontent.com/80079066/120287883-a02f5080-c2fa-11eb-92c4-79884bb89931.png)
 
+##### 2번 사용법 예시
+
+이번엔 `Info.js`의 위에서 작성한 것에서 useEffect부분만 수정해보겠습니다!
+
+```js
+// Info.js
+...(중략)
+useEffect(() => {
+  console.log("effect");                          // useEffect가 실행될 때마다 콘솔에 찍어줌.
+  console.log(name, address, phoneNm);            // useEffect가 실행될 때마다 name, address, phoneNm값을 콘솔에 찍어줌
+}, []);
+...(중략)
+```
+
+달라진 부분은 바로 끝부분에 []대괄호를 넣어줬습니다. 앞에서 설명드렸다싶이 이렇게 대괄호로를 넣어주면, 화면이 랜더링 될 때, 딱 한번만 렌더링하고 더 이상 실행하지 않습니다.
+
+- 실행결과
