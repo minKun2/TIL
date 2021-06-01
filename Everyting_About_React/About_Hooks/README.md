@@ -66,14 +66,14 @@ import React, { useState } from "react";
 
 const Info = () => {
   const [name, setName] = useState("");       // 이름을 입력 받을 useState
-  const [adress, setAdress] = useState("");   // 주소를 입력 받을 useState
+  const [address, setAddress] = useState("");   // 주소를 입력 받을 useState
   const [phoneNm, setPhoneNm] = useState(""); // 전화번호를 입력 받을 useState
 
   const onChangeName = (e) => {
     setName(e.target.value);                  // 입력할 때 마다 name 값을 변경
   };
-  const onChangeadress = (e) => {
-    setAdress(e.target.value);                // 입력할 때 마다 adress 값을 변경
+  const onChangeaddress = (e) => {
+    setAddress(e.target.value);                // 입력할 때 마다 address 값을 변경
   };
   const onChangePhoneNm = (e) => {
     setPhoneNm(e.target.value);               // 입력할 때 마다 phoneNm 값을 변경
@@ -88,9 +88,9 @@ const Info = () => {
           onChange={onChangeName}
         />
         <input
-          value={adress}
+          value={address}
           placeholder="주소를 입력해주세요."
-          onChange={onChangeadress}
+          onChange={onChangeaddress}
         />
         <input
           value={phoneNm}
@@ -104,7 +104,7 @@ const Info = () => {
           {name}
         </div>
         <div>
-          <b>주소 :</b> {adress}
+          <b>주소 :</b> {address}
         </div>
         <div>
           <b>핸드폰 번호 :</b> {phoneNm}
@@ -162,7 +162,7 @@ export default App;
 
 3.
  ```js
- const [naem, setName] = useState();
+ const [name, setName] = useState();
  useEffect (() => {},[name])
  ```
 
@@ -203,7 +203,7 @@ const Info = () => {
  const handleClickincrease = (e) => {
   setCount(count + 1);
  }
- const handleClickindecrease = (e) => {
+ const handleClickdecrease = (e) => {
   setCount(count - 1);
  }
  
