@@ -170,7 +170,9 @@ export default App;
 
 
 #### useEffect 예시
- 
+
+##### 1번 사용법 예시
+
 이번엔 `Info.js` 파일을 사용해서 이용해 봅시다. 
 다음과 같이 작성해 주세요~!
 
@@ -179,14 +181,66 @@ export default App;
 import React,{ useState, useEffect } from 'react';
 
 const Info = () => {
- const [name, setName] = useState("");
- const [address, setAddress] = useState("");
- const [phoneNm, setPhoneNm] = useState("");
- const [value, setValue] = useState({
-  name : "",
-  address : "",
-  phoneNm : "",
- });
+ const [name, setName] = useState("");            // 이름이 바뀔 때마다 저장해줄 값을 저장하는 공간 지정
+ const [address, setAddress] = useState("");      // 주소가 바뀔 때마다 저장해줄 값을 저장하는 공간 지정
+ const [phoneNm, setPhoneNm] = useState("");      // 전화번호가 바뀔 때마다 저장해줄 값을 저장하는 공간 지정
+ const [count, setCount] = useState(0);           // 숫자가 증가하거나 감소할 때마다 저장해줄 값을 저장하는 공간 지정
+ 
+ useEffect(() => {
+  console.log("effect");                          // useEffect가 실행될 때마다 콘솔에 찍어줌.
+  console.log(name, address, phoneNm);            // name,address,phoneNm에 변경이 있을 때마다 콘솔에 찍어줌. (위에있는 effect랑 같이 찍힘.)
+});
+
+ const onChangeName = (e) => {
+  setName(e.target.value);
+ };
+ const onChangeAddress = (e) => {
+  setAddress(e.target.value);
+ };
+ const onChangePhoneNm = (e) => {
+  setPhoneNm(e.target.value);
+ };
+ const handleClickincrease = (e) => {
+  setCount(count + 1);
+ }
+ const handleClickindecrease = (e) => {
+  setCount(count - 1);
+ }
+ 
+ return (
+  <div>
+   <div>
+    <input
+     value={name}
+     placeholder= "성함을 입력해주십시오."
+     onChange={onChangeName}
+    />
+    <input
+     value={address}
+     placeholder= "주소을 입력해주십시오."
+     onChange={onChangeAddress}
+    />
+    <input
+     value={phoneNm}
+     placeholder= "전화번호을 입력해주십시오."
+     onChange={onChangePhoneNm}
+    />
+   </div>
+    <div> 이름 : {name}</div>
+    <div> 주소 : {address}</div>
+    <div> 전화번호 : {phoneNm}</div>
+    <div> 카운트 : {count}</div>
+    <button onClick={handleClickincrease}> 1증가 </button>
+    <button onClick={handleClickdecrease}> 1감소 </button>
+  </div>
+ );
+};
+
+export default Info;
+  
+ 
+ 
+
  
  
  
