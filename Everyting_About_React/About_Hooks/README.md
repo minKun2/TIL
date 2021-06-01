@@ -299,3 +299,9 @@ useEffect(() => {
 (아래의 실행결과는 name -> address -> phoneNm으로 입력하여 name의 값을 입력했을 때는 address,phoneNm이 모두 null값이므로 console에 값이 찍히지 않는 것입니다!)
 
 ![useEffect예제3](https://user-images.githubusercontent.com/80079066/120292013-dc64b000-c2fe-11eb-8249-40abb12c6844.png)
+
+👉 실행결과2
+
+(아래의 실행결과는 모두 입력을 한후 name값을 변경하였을 때, console에 찍히는 값들을 나타냅니다!)
+
+![useEffect예제3예외처리](https://user-images.githubusercontent.com/80079066/120293262-09659280-c300-11eb-9e64-40419da30d6f.png)
