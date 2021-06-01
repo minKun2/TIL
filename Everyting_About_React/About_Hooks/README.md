@@ -280,4 +280,19 @@ useEffect(() => {
 ##### 3번 사용법 예시
 
 이번에도 `Info.js`의 코드를 수정해서 해보겠습니다!
+또한 useEffect 부분만 수정해 볼께요!
 
+```js
+//Info.js
+...(중략)
+useEffect(() => {
+  console.log("effect");                          // useEffect가 실행될 때마다 콘솔에 찍어줌.
+  console.log(name, address, phoneNm);            // useEffect가 실행될 때마다 name, address, phoneNm값을 콘솔에 찍어줌
+}, [name]);
+
+```
+여기서 달라진 부분은 대괄호[]안에 name값을 넣어줬는데요. 위에서의 설명처럼 name값이 바뀌게 되면! useEffect를 실행하도록 설정해 준 것입니다. name이 아닌 다른 값이 바뀌면 useEffect문은 실행되지 않습니다!
+
+- 실행결과
+
+![useEffect예제3](https://user-images.githubusercontent.com/80079066/120292013-dc64b000-c2fe-11eb-8249-40abb12c6844.png)
