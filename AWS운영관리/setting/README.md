@@ -70,19 +70,19 @@
      - [운영서버 B] "(앱 or 프로젝트 이름)_op_B"
      - [개발서버] "(앱 or 프로젝트 이름)_dev"
   
-  [사진]
+![프로젝트 기본 내용](https://user-images.githubusercontent.com/80079066/120771642-63619480-c55a-11eb-903e-b30753c365db.png)
   
   #### [Save] 후 좌측에 [Connection] -> [SSH] -> [Auth] 클릭
   
-  [사진]
+![auth](https://user-images.githubusercontent.com/80079066/120771633-6197d100-c55a-11eb-811b-2e35451c9191.png)
   
   #### 맨 하단에 [Private key for authentication]에서 아까 만든 .ppk 파일 찾아서 업로딩!
   
-  [사진]
+![ppk 적용](https://user-images.githubusercontent.com/80079066/120771639-62c8fe00-c55a-11eb-9c17-55eb0d74fa99.png)
   
   #### 그 후 [Open] 클릭 
   
-  [사진]
+![open 클릭](https://user-images.githubusercontent.com/80079066/120771635-62306780-c55a-11eb-82c2-54d660d31b51.png)
   
   #### 이 과정을 총 세번 (운영서버 2개 / 개발서버 1개) 진행 해 줍니다! * 개발 서버 .ppk 파일은 따로 위에서 만들어줘야 합니다! 운영서버 .ppk 같이 안씀! *
  
