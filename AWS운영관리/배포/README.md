@@ -2,9 +2,8 @@
 
 ## API Server 배포하기
 
-### 
 
-  #### 1️⃣ Intellij에서 BizApi Pull 받기!
+  ### 1️⃣ Intellij에서 BizApi Pull 받기!
   
     - [Project] -> [Get from VCS] 클릭
     
@@ -17,7 +16,7 @@
    
     - 맨 오늘쪽에 [Maven] -> [프로젝트 상위 폴더] -> [Lifecycle] -> [package]에 올려두고 refresh 클릭
     
-  #### 2️⃣ BizApi를 run build! 
+  ### 2️⃣ BizApi를 run build! 
     
 ![사진 3](https://user-images.githubusercontent.com/80079066/121302595-e73dc700-c934-11eb-89ad-5e8b3c408d39.png)
 
@@ -37,7 +36,7 @@
     
 ![사진7](https://user-images.githubusercontent.com/80079066/121302593-e6a53080-c934-11eb-8e67-8a8db78d6282.png)
   
-  #### 3️⃣ 스냅샷 교체 (운영서버 교체 배포)
+  ### 3️⃣ 스냅샷 교체 (운영서버 교체 배포)
   
   
 ![putty filezila](https://user-images.githubusercontent.com/80079066/121303038-882c8200-c935-11eb-9025-32f723f28cbb.png)
@@ -79,4 +78,19 @@
         
       💻 ps -efc | grep java : 서버 가동 확인
       
-    
+## BackOffice 배포하기
+
+### Git 에서 클론 받기 
+➡️ Api Server clone 받는 것과 동일하게 프로젝트 클론 받습니다.
+
+### build 하기
+➡️ intellij 내에서 Terminal open
+
+      명령어
+      1. yarn add node-sass@[버전]
+      2. yarn run build
+      
+   끝! 👏 쉽죠?
+
+### AWS Server 배포
+➡️ 로그인
