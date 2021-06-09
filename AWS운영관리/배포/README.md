@@ -8,34 +8,34 @@
   
     - [Project] -> [Get from VCS] 클릭
     
-![사진1](https://user-images.githubusercontent.com/80079066/121300477-da6ba400-c931-11eb-9522-8b199b3b6eeb.png)
+![사진1](https://user-images.githubusercontent.com/80079066/121302598-e73dc700-c934-11eb-8754-8f381eab981c.png)
  
     - [URL] => Git에서 HTTP 주소 복사
     - [Durectory] => 프로젝트를 Clone할 디렉토리 설정 (아무것도 없이 비워져 있어야 함)
  
-![사진2](https://user-images.githubusercontent.com/80079066/121300478-db043a80-c931-11eb-934c-aed36e1c151a.png)
+![사진2](https://user-images.githubusercontent.com/80079066/121302599-e7d65d80-c934-11eb-9d7c-1ceb592cb73d.png)
    
     - 맨 오늘쪽에 [Maven] -> [프로젝트 상위 폴더] -> [Lifecycle] -> [package]에 올려두고 refresh 클릭
     
   #### 2️⃣ BizApi를 run build! 
     
-![사진 3](https://user-images.githubusercontent.com/80079066/121300475-da6ba400-c931-11eb-8893-10e7a25e906e.png)
+![사진 3](https://user-images.githubusercontent.com/80079066/121302595-e73dc700-c934-11eb-89ad-5e8b3c408d39.png)
 
     - [File] -> [Projcet Structure] 클릭
     
-![사진4](https://user-images.githubusercontent.com/80079066/121300480-db043a80-c931-11eb-8538-f464593a69e6.png)
+![사진4](https://user-images.githubusercontent.com/80079066/121302601-e7d65d80-c934-11eb-8b7c-69cd694a561e.png)
   
     - [Artifacts] -> [+] -> [Jar] -> [From modules with dependencies]클릭 
   
-![사진5](https://user-images.githubusercontent.com/80079066/121300482-db9cd100-c931-11eb-9388-1200989eebb5.png)
+![사진5](https://user-images.githubusercontent.com/80079066/121302591-e5740380-c934-11eb-8f36-a2aac2fad623.png)
   
     - [Main Class]의 폴더 버튼 클릭 후 운영서버가 될 클래스 선택 ( 제 프로젝트는 가운데에 있어서 가운데를 선택했습니다 )
     
-![사진6](https://user-images.githubusercontent.com/80079066/121300484-db9cd100-c931-11eb-82b0-132b5a7fea95.png)  
+![사진6](https://user-images.githubusercontent.com/80079066/121302592-e6a53080-c934-11eb-8595-0c3654d2d2b5.png)
 
     - 다시 맨 오늘쪽에 [Maven] -> [프로젝트 상위 폴더] -> [Lifecycle] -> [package]에 올려두고 ▶️ [Run Maven Build] 클릭하면 스냅샷 생성
     
-![사진7](https://user-images.githubusercontent.com/80079066/121300471-d93a7700-c931-11eb-8bf3-03c8748e2a03.png)
+![사진7](https://user-images.githubusercontent.com/80079066/121302593-e6a53080-c934-11eb-8e67-8a8db78d6282.png)
   
   #### 3️⃣ 스냅샷 교체 (운영서버 교체 배포)
   
