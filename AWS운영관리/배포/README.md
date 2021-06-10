@@ -96,21 +96,19 @@
 
 ➡️ 로그인
 
-[AWS 로그인]
+![AWS 로그인](https://user-images.githubusercontent.com/80079066/121450824-6be12180-c9d7-11eb-988c-b26fc8151539.png)
 
 ➡️ S3 스토리지 이동 및 배포할 객체 선택
 
-[S3 이동]
+![AWS S3 이동](https://user-images.githubusercontent.com/80079066/121450822-6aaff480-c9d7-11eb-8c57-c39a80b26fdd.png)
 
 ➡️ 객체 선택 후 [업로드] 선택 후 프로젝트 폴더 [project folder] -> [build]
 
-[build]
+![build](https://user-images.githubusercontent.com/80079066/121450826-6c79b800-c9d7-11eb-807c-acf769e34ade.png)
 
 ➡️ [build]에 있던 파일을 붙여넣기 후 업로드 클릭 기다리면... 성공! 👏
 
-[업로드 성공]
-
-
+![업로드 서옥ㅇ](https://user-images.githubusercontent.com/80079066/121450829-6c79b800-c9d7-11eb-8622-dc27eeef2882.png)
 
 
 
