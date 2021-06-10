@@ -2,12 +2,11 @@
 
 ## API Server 배포하기
 
-
   ### 1️⃣ Intellij에서 BizApi Pull 받기!
   
     - [Project] -> [Get from VCS] 클릭
     
-![사진1](https://user-images.githubusercontent.com/80079066/121302598-e73dc700-c934-11eb-8754-8f381eab981c.png)
+![사진 1 바꿈](https://user-images.githubusercontent.com/80079066/121451739-10179800-c9d9-11eb-8077-de818879602e.png)
  
     - [URL] => Git에서 HTTP 주소 복사
     - [Durectory] => 프로젝트를 Clone할 디렉토리 설정 (아무것도 없이 비워져 있어야 함)
@@ -34,7 +33,7 @@
 
     - 다시 맨 오늘쪽에 [Maven] -> [프로젝트 상위 폴더] -> [Lifecycle] -> [package]에 올려두고 ▶️ [Run Maven Build] 클릭하면 스냅샷 생성
     
-![사진7](https://user-images.githubusercontent.com/80079066/121302593-e6a53080-c934-11eb-8e67-8a8db78d6282.png)
+![run maven build](https://user-images.githubusercontent.com/80079066/121451733-0f7f0180-c9d9-11eb-974e-7fb32f7105a0.png)
   
   ### 3️⃣ 스냅샷 교체 (운영서버 교체 배포)
   
