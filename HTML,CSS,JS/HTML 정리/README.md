@@ -201,7 +201,7 @@
   </scrpit>
 
  
-<!--응용-->
+<!---응용--->
    <script src="main.js"></script>
    <script>
       function handleclickevent(event) {
@@ -210,6 +210,25 @@
    </script>
 ```
 
+#### HTML에서 이미지 불러오기
+
+▶️ <img>는 html에서 이미지를 불러오기 위해 사용합니다!
+
+▶️ 사용법
+```html
+<!---기본 모양--->
+ <body>
+<!--- 대체 택스트의 경우 이미지가 여러가지 이유로 렌더링이 되지 않았을 때 나타납니다--->
+  <이미지 경로="[경로]" 대체택스트="[대체 택스트]" 
+ </body>
+
+ <!---응용--->
+ <body>
+  <img src="https://heropcode.github.io/GitHub-Responsive/img/logo.svg" alt="GitHub Logo" />  
+ </body>
+```
+
+▶ 이미지는 위쪽에 기본문법의 태그 예시와 동일 (github이미지)
   
 
 
