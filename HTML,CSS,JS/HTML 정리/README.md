@@ -181,8 +181,35 @@
     <p>깃허브 로고입니다!</p>
   </body>
 </html>
-```
+``` 
+👉 CSS의 문법에 관한 내용은 CSS에서 다루겠습니다!^-^ 궁금하면 CSS로!
+ 
+▶️ 출력 결과
+
+ [style예시]
+ 
+#### HTML에서 script불러오거나 작성하기
+ 
+▶️ html에서 스크립트를 불러오거나 작성할 때 사용합니다!
+
+▶️ 사용법
+```html
+<!---기본 모양--->
+ <script src="[경로]"></scrpit>
+ <script>
+   function ... [코딩]
+  </scrpit>
 
  
+<!--응용-->
+   <script src="main.js"></script>
+   <script>
+      function handleclickevent(event) {
+        console.log(event);
+     }
+   </script>
+```
+
+  
 
 
