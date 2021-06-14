@@ -145,6 +145,44 @@
     - rel = 관계를 나타내줌 (stylesheet, icon 등)
     - href = 위치 지정
 
+#### HTML에서 직접 CSS 작성하기
+
+▶️ html에서 CSS를 직접 입력하여 적용할 때 사용합니다!
+ 
+▶️ 사용법
+ 
+```html
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!--문자 인코딩 방식 설정 (필수로 해주는 것이 좋음)-->
+    <meta name="author" content="김민재" />
+    <!--제작자-->
+    <meta name="discription" content="연습하는 사이트~!" />
+    <!--사이트 설명-->
+    <title>Github(연습사이트)</title>
+    <link rel="stylesheet" href="./main.css" />
+    <style>
+      img {
+        width: 100px;
+        height: 100px;
+      }
+      p {
+        font-size: 20px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="https://heropcode.github.io/GitHub-Responsive/img/logo.svg"
+      alt="GitHub Logo"
+    />
+    <p>깃허브 로고입니다!</p>
+  </body>
+</html>
+```
+
  
 
 
