@@ -21,4 +21,4 @@
 
 ### TIL
 
-- api uility, scroll 관련 정리
+- 시간, 날짜 형식 변환 uility, scroll 관련 정리
